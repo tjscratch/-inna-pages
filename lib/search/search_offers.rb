@@ -14,7 +14,7 @@ class SearchOffers
 
     if Rails.env.production?
       @api_url      = "http://api.inna.ru/api/v1/"
-      @url          = "https://inna.ru/"
+      @url          = "https://nspk.inna.ru/"
       @dates_system = (2..7).to_a
     else
       @api_url      = "https://api.inna.ru/api/v1/"
