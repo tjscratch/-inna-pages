@@ -8,7 +8,7 @@ set :pty, true
 set :format, :pretty
 
 set :application, 'InnaRails'
-set :repo_url, 'https://github.com/vened/InnaRails.git'
+set :repo_url, 'ssh://git@gitlab.inna.ru:223/frontend-dev/inna-pages.git'
 set :branch, 'master'
 set :deploy_to, '/home/deploy/www/InnaRails'
 set :shared_path, '/home/deploy/www/InnaRails/shared'
