@@ -59,7 +59,7 @@ class Header extends React.Component {
                             
                             <div className="info__logo">
                                 <a className="Logo"
-                                   href="/"></a>
+                                   href="https://inna.ru/#/"></a>
                             </div>
                             
                             <div className="info_tel-login">
